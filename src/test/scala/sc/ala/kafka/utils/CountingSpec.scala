@@ -1,7 +1,5 @@
 package sc.ala.kafka.utils
 
-import org.scalatest._
-
 /**
  * under construction
  */

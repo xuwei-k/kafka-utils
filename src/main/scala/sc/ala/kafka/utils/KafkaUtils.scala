@@ -8,13 +8,11 @@ import kafka.consumer._
 import kafka.api.{TopicMetadataRequest, TopicMetadataResponse}
 import kafka.server.OffsetManager
 import kafka.utils._
-import sc.ala.rubyist.Using._
 import sc.ala.kafka.utils.consumer._
 
 import scala.util._
 import scala.concurrent._
 import scala.concurrent.duration._
-import collection.JavaConversions._
 
 abstract class KafkaUtils extends Api {
   def zkClient: ZkClient

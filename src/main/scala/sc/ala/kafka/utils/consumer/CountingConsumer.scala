@@ -6,7 +6,6 @@ import kafka.consumer.ConsumerConfig.{SocketTimeout, SocketBufferSize}
 import kafka.client.ClientUtils
 import kafka.api._
 import kafka.cluster.Broker
-import scala.collection.JavaConversions._
 import kafka.common.TopicAndPartition
 
 import sc.ala.rubyist.Using._

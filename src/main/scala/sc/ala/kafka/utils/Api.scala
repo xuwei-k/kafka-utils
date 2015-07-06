@@ -1,6 +1,6 @@
 package sc.ala.kafka.utils
 
-import kafka.api.{TopicMetadataRequest, TopicMetadataResponse}
+import kafka.api.{TopicMetadataResponse}
 import kafka.cluster.Broker
 import scala.util._
 
